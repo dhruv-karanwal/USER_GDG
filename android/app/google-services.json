@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "675148664116",
+    "firebase_url": "https://floodlg-default-rtdb.firebaseio.com",
+    "project_id": "floodlg",
+    "storage_bucket": "floodlg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675148664116:android:1fff106c6430443556a961",
+        "android_client_info": {
+          "package_name": "com.example.apps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbw5lGMIRvKKF2sVDKYJX25IbTc32PfM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675148664116:android:0f894d4479026e4056a961",
+        "android_client_info": {
+          "package_name": "com.example.user_gdg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbw5lGMIRvKKF2sVDKYJX25IbTc32PfM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
