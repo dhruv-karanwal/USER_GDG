@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kerala - Safe Zones &amp; Relief Camps</name>
+    <description>Representative locations of relief camps and major hospitals in safe zones.</description>
+    
+    <Style id="campIcon">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+        </Icon>
+        <color>ff00ff00</color> <!-- Green -->
+      </IconStyle>
+    </Style>
+
+     <Style id="hospitalIcon">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/hospitals.png</href>
+        </Icon>
+        <color>ff0000ff</color> <!-- Red -->
+      </IconStyle>
+    </Style>
+
+    <Folder>
+      <name>Relief Operations</name>
+      
+      <Placemark>
+        <name>Relief Camp: UC College, Aluva</name>
+        <description>Major relief camp housing thousands of evacuated people.</description>
+        <styleUrl>#campIcon</styleUrl>
+        <Point>
+          <coordinates>76.3315,10.1250,0</coordinates>
+        </Point>
+      </Placemark>
+      
+      <Placemark>
+         <name>Relief Camp: St. Berchmans College, Changanassery</name>
+         <description>Sheltered many from Kuttanad region.</description>
+         <styleUrl>#campIcon</styleUrl>
+         <Point>
+           <coordinates>76.5414,9.4442,0</coordinates>
+         </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Amrita Institute of Medical Sciences</name>
+        <description>Major hospital providing emergency care.</description>
+        <styleUrl>#hospitalIcon</styleUrl>
+        <Point>
+           <coordinates>76.2917,10.0331,0</coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Medical College, Kottayam</name>
+        <description>Key healthcare facility for flood victims.</description>
+        <styleUrl>#hospitalIcon</styleUrl>
+        <Point>
+           <coordinates>76.5511,9.6190,0</coordinates>
+        </Point>
+      </Placemark>
+
+    </Folder>
+  </Document>
+</kml>

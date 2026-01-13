@@ -33,7 +33,7 @@ class FloodCitizenApp extends StatelessWidget {
           elevation: 2,
         ),
       ),
-      initialRoute: '/',
+      initialRoute: '/map',
       routes: {
         '/': (context) => const HomePage(),
         '/map': (context) => const FloodMapScreen(),
